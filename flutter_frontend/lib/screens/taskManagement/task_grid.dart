@@ -97,9 +97,10 @@ class _TaskGridState extends State<TaskGrid> {
                             widget.isPending ?
                             Center(
                               child: ElevatedButton(onPressed: () async{
+                                String taskName  = tasks[index].taskName;
                                 bool markSuccess = await markCompleted(tasks[index].taskId, widget.userId, index);
                                 if(markSuccess){
-                                  String msg = generateAnnouncementMsg(widget.userId, tasks[index].taskName);
+                                  String msg = generateAnnouncementMsg(widget.userId, taskName);
                                   sendAnnouncementRequest(msg, widget.userId);
                                 }
                               },
