@@ -190,9 +190,7 @@ class _CreateAnnouncementState extends State<CreateAnnouncement> {
     );
   }
 
-
-
-
+  //Send announcement function- validation and api request
   Future<bool> sendAnnouncement() async{
     bool announcementSent = false;
     try{
@@ -223,7 +221,7 @@ class _CreateAnnouncementState extends State<CreateAnnouncement> {
     return msg.isNotEmpty; // Returns true if msg is not empty, false otherwise
   }
 
-
+  //Send announcement function- api request to send announcement
   Future<bool> sendAnnouncementRequest(String msg) async{
     bool isSent = false;
     try {
