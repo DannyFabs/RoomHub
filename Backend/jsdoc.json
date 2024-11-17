@@ -1,0 +1,20 @@
+{
+    "source": {
+      "include": ["src", "README.md"],
+      "exclude": ["./test", "./testing", "./node_modules"],
+      "includePattern": ".+\\.js?$",
+      "excludePattern": ".*\\.(config|test|spec|example)\\.(js|mjs)$"
+
+    },
+    "opts": {
+      "destination": "./docs/",
+      "recurse": true,
+      "title": "RoomHub Documentation"
+    },
+    "plugins": [ "plugins/markdown" ,"jsdoc-http-plugin"],
+    "templates": {
+      "cleverLinks":true,
+      "monospaceLinks":true
+    }
+  }
+

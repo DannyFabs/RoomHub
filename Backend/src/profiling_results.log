@@ -1,0 +1,14 @@
+Endpoint: POST / took 8.80 ms
+Endpoint: GET / took 1.25 ms
+Endpoint: POST /join-room-request took 8.40 ms
+Endpoint: POST /join-room-request took 1.54 ms
+Endpoint: POST /join-room-request took 1.60 ms
+Endpoint: POST /join-room-request took 1.78 ms
+Endpoint: POST /join-room-request took 1.31 ms
+Endpoint: POST /join-room-request took 1.07 ms
+Endpoint: POST /join-room-request took 12.26 ms
+Endpoint: POST /join-room-request took 411.01 ms
+Endpoint: POST /join-room-request took 414.30 ms
+Endpoint: POST /join-room-request took 244.58 ms
+Endpoint: GET /josephdoan15@outlook.com/get-notification took 752.54 ms
+Endpoint: DELETE /josephdoan15@outlook.com/notification/3dcbd83b-d382-4217-b866-9d6798fa52a0 took 542.61 ms
