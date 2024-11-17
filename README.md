@@ -1,9 +1,9 @@
 # RoomHub
 ### Team Members- Developers 
-• Daniel Aderemi Fawoye - Full Stack Developer( Flutter frontend, Express Js Backend)
-• Hung Lu Dao - Full Stack Developer( React frontend, Express Js Backend)
-• Camila Martinez Ovando - Full Stack Developer( Flutter frontend, Express Js Backend)
-• William Odumah - Full Stack Developer( React frontend, Express Js Backend)
+* Daniel Aderemi Fawoye - Full Stack Developer( Flutter frontend, Express Js Backend).
+* Hung Lu Dao - Full Stack Developer( React frontend, Express Js Backend).
+* Camila Martinez Ovando - Full Stack Developer( Flutter frontend, Express Js Backend).
+* William Odumah - Full Stack Developer( React frontend, Express Js Backend).
 
 ### Vision Statement
 To transform shared living by simplifying household organization and helping people find the perfect roommates.
