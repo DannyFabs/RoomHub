@@ -33,7 +33,6 @@ class _UserRoomState extends State<UserRoom> {
   @override
   void initState() {
     super.initState();
-    print("Getting to this page");
     getSummary(widget.email); // async function here
   }
 
@@ -127,7 +126,7 @@ class _UserRoomState extends State<UserRoom> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    '${owe!}', // e.g., "29"
+                                    '\$${owe!}', // e.g., "29"
                                     style: TextStyle(
                                         fontSize: 40,
                                         fontWeight: FontWeight.bold,
@@ -147,7 +146,7 @@ class _UserRoomState extends State<UserRoom> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    '${owed!}', // e.g., "29"
+                                    '\$${owed!}', // e.g., "29"
                                     style: TextStyle(
                                         fontSize: 40,
                                         fontWeight: FontWeight.bold,
