@@ -49,7 +49,7 @@ To get started with the RoomHub application, follow the instructions in the resp
 
 
 ### Flutter Front End:
-- Instructions for running and testing the Flutter front-end are available in the [Flutter Front End README](https://github.com/WilliamOdumah/RoomHub/blob/main/README.md).
+- Instructions for running and testing the Flutter front-end are available in the [Flutter Front End README](https://github.com/DannyFabs/RoomHub/blob/v1.0.0Alpha/flutter_frontend/README.md).
 
 ### Back End:
-- Steps for setting up the Express backend and performing tests are documented in the [Back End README](https://github.com/WilliamOdumah/RoomHub/tree/main/Backend/README.md).
+- Steps for setting up the Express backend and performing tests are documented in the [Back End README](https://github.com/DannyFabs/RoomHub/blob/v1.0.0Alpha/Backend/README.md).
