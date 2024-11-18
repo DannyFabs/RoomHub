@@ -25,7 +25,8 @@ cd flutter_frontend
    - Keep this emulator open while you run the APK.
 #### 4. **Locate the APK file**
      ```
-    RoomHub/flutter_frontend/flutter-apk.zip
+      Click on the v1.o.o tagged release 
+      And find the associated app-release.apk
      ```
 #### 5. **Install APK on the Emulator**:
    Unzip and you can install the APK using two methods:
