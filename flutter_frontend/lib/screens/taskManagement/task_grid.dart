@@ -97,9 +97,10 @@ class _TaskGridState extends State<TaskGrid> {
                             widget.isPending ?
                             Center(
                               child: ElevatedButton(onPressed: () async{
+                                String taskName  = tasks[index].taskName;
                                 bool markSuccess = await markCompleted(tasks[index].taskId, widget.userId, index);
                                 if(markSuccess){
-                                  String msg = generateAnnouncementMsg(widget.userId, tasks[index].taskName);
+                                  String msg = generateAnnouncementMsg(widget.userId, taskName);
                                   sendAnnouncementRequest(msg, widget.userId);
                                 }
                               },
@@ -186,6 +187,7 @@ class _TaskGridState extends State<TaskGrid> {
     return '$user completed task: $task';
   }
 
+  // Send announcement Function- Api request and manage response.
   void sendAnnouncementRequest(String announcement, String sender) async {
     try {
       var reqBody = {
@@ -205,6 +207,7 @@ class _TaskGridState extends State<TaskGrid> {
     }
   }
 
+  // Mark Task as Completed function - Api request and manage response.
   Future<bool> markCompleted(String taskId, String userId, int taskIndex) async {
     bool markedSuccess = false;
     try {
@@ -241,6 +244,7 @@ class _TaskGridState extends State<TaskGrid> {
     return markedSuccess;
   }
 
+  // Reuse task function - Api request and manage response.
   void reuseTaskPressed(String taskName, String assignedTo, String taskId, String dueDate) {
     Navigator.of(context).push(
       MaterialPageRoute(
@@ -249,6 +253,7 @@ class _TaskGridState extends State<TaskGrid> {
     ); // Pop the current screen
   }
 
+  // Delete task function - Api request and manage response.
   void deletePressed(String taskId, String userId, int taskIndex) async{
     try {
       var reqBody = {

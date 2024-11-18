@@ -264,6 +264,7 @@ class _EditTaskFormState extends State<EditTaskForm> {
     );
   }
 
+  // Validate Required fields
   bool _validateFields() {
     setState(() {
       // Check if the name field is empty
@@ -296,6 +297,7 @@ class _EditTaskFormState extends State<EditTaskForm> {
     return 'The task "$task" has been assigned to $user';
   }
 
+  // Send announcement Function- Api request and manage response.
   void sendAnnouncementRequest(String announcement, String sender) async {
     try {
       var reqBody = {
@@ -315,6 +317,7 @@ class _EditTaskFormState extends State<EditTaskForm> {
     }
   }
 
+  // Edit task Function- Validation and Api request.
   Future<void> editTask(String currUserId, String taskName, String assignedTo, String dueDate, String taskId) async {
     try {
       var reqBody = {
@@ -347,6 +350,7 @@ class _EditTaskFormState extends State<EditTaskForm> {
     }
   }
 
+  // Save edited Task Function- Api request and manage response.
   Future<bool> saveTask(String currUserId, String taskName, String assignedTo, String dueDate, String taskId) async {
     bool isSaved = false;
     try{
