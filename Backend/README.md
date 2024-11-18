@@ -62,5 +62,5 @@ If lambda doesn't work:
     $ cd Backend/docs/index.html
     ```
 2. Open the index.html file in Browser
-3. API specification under the Namespaces group. User,Room and Notification are the current base paths we have.
+3. API specification under the Namespaces group.
 4. Other documentation for classes in Modules and Classes

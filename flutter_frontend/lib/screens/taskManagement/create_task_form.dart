@@ -255,6 +255,7 @@ class _TaskFormState extends State<TaskForm> {
     );
   }
 
+
   bool _validateFields() {
     setState(() {
       // Check if the name field is empty
@@ -276,6 +277,7 @@ class _TaskFormState extends State<TaskForm> {
     }
   }
 
+  // Save task Function- Validation and Api request.
   Future<bool> saveTask(BuildContext context) async{
     bool isSaved = false;
     try{
@@ -299,6 +301,7 @@ class _TaskFormState extends State<TaskForm> {
   // frm	String	The user creating the task
   // to	String	The user assigned the task
   // date	String	The due date for the task
+  // Save New Task Function- Api request and manage response.
   Future<void> createNewTask(String currUserId, String taskName, String assignedTo, String dueDate) async {
     try {
       var reqBody = {
@@ -322,6 +325,7 @@ class _TaskFormState extends State<TaskForm> {
     }
   }
 
+  // Send announcement Function- Api request and manage response.
   void sendAnnouncementRequest(String announcement, String sender) async {
     try {
       var reqBody = {
