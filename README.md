@@ -45,7 +45,7 @@ Users can rate and provide detailed feedback about their roommates, offering val
     A managed nosql database service service that has direct javascript compatibility, offering automated backups, scaling, and high availability. This will serve as the primary database for the app, ensuring robust data management and reliability.
 
 ### How to Run the Project
-To get started with the RoomHub application, follow the instructions in the respective README files for the [Front End](https://github.com/DannyFabs/RoomHub/blob/v1.0.0Alpha/flutter_frontend/README.md) and [Back End](https://github.com/DannyFabs/RoomHub/blob/v1.0.0Alpha/Backend/README.md). These files provide detailed steps on setting up the development environment, running the project locally, and executing tests.
+To get started with the RoomHub application, follow the instructions in the respective README files for the [Front End](https://github.com/DannyFabs/RoomHub/blob/main/flutter_frontend/README.md) and [Back End](https://github.com/DannyFabs/RoomHub/blob/v1.0.0Alpha/Backend/README.md). These files provide detailed steps on setting up the development environment, running the project locally, and executing tests.
 
 
 ### Flutter Front End:
